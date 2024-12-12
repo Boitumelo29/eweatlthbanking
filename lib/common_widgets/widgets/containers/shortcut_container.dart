@@ -20,7 +20,7 @@ class ShortCutContainer extends StatelessWidget {
         width: 85,
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(20),
-            border: Border.all(color: Colors.red, width: 1)),
+            border: Border.all(color: Colors.green, width: 1)),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           crossAxisAlignment: CrossAxisAlignment.center,
@@ -28,7 +28,7 @@ class ShortCutContainer extends StatelessWidget {
             Icon(
               icon,
               size: 20,
-              color: Colors.red,
+              color: Colors.green,
             ),
             Text(
               title,

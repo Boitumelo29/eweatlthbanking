@@ -5,12 +5,15 @@ class LogoImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Image.asset(
-        alignment: Alignment.center,
-        'lib/assets/4.jpg',
-        width: 200,
-        height: 200,
+    return Padding(
+      padding: const EdgeInsets.all(15.0),
+      child: Center(
+        child: Image.asset(
+          alignment: Alignment.center,
+          'lib/assests/new_logo.png',
+          width: 200,
+          height: 200,
+        ),
       ),
     );
   }

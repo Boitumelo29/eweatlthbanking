@@ -19,19 +19,19 @@
 //         decoration: InputDecoration(
 //           hintText: "Add a bio",
 //           border: OutlineInputBorder(
-//               borderSide: const BorderSide(color: Colors.red),
+//               borderSide: const BorderSide(color: Colors.green),
 //               borderRadius: BorderRadius.circular(20)),
 //           enabledBorder: OutlineInputBorder(
 //             borderRadius: BorderRadius.circular(20),
 //             borderSide: const BorderSide(
-//               color: Colors.red,
+//               color: Colors.green,
 //               width: 1,
 //             ),
 //           ),
 //           focusedBorder: OutlineInputBorder(
 //             borderRadius: BorderRadius.circular(20),
 //             borderSide: const BorderSide(
-//               color: Colors.red,
+//               color: Colors.green,
 //               width: 0.7,
 //             ),
 //           ),

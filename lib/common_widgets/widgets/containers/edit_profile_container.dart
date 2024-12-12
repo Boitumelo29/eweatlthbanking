@@ -21,7 +21,7 @@
 //         width: 330,
 //         decoration: BoxDecoration(
 //             borderRadius: BorderRadius.circular(20),
-//             border: Border.all(color: Colors.red, width: 1)),
+//             border: Border.all(color: Colors.green, width: 1)),
 //         child: Row(
 //           mainAxisAlignment: MainAxisAlignment.spaceBetween,
 //           crossAxisAlignment: CrossAxisAlignment.center,

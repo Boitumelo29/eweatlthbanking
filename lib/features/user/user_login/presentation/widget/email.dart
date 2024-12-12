@@ -14,15 +14,15 @@ class LoginEmail extends StatelessWidget {
     return LongTextFieldForm(
       isRed: false,
       showPrefixIcon: true,
-      prefixIcon: Icons.email_outlined,
+      prefixIcon: Icons.person,
       focusNode: emailFocus,
       validator: (value) {
-        return Validation.emailValidation(value);
+        return Validation.usernameEmailValidation(value);
       },
       obsureText: false,
       showSuffixIcon: false,
-      hintText: Strings.email,
-      labelText: Strings.email,
+      hintText: Strings.username,
+      labelText: Strings.username,
       onChanged: (value) {},
       controller: email,
     );

@@ -24,6 +24,22 @@ if (flutterVersionName == null) {
 }
 
 android {
+    signingConfigs {
+        release {
+            storeFile file('my-release-key.jks')
+            storePassword 'Tumi.TH0'
+            keyAlias 'my-key-alias'
+            keyPassword 'Tumi.TH0'
+        }
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false // Set to true to enable code shrinking (optional)
+            shrinkResources false // Set to true if minifyEnabled is true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
     namespace = "com.example.eweatlthbanking"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion

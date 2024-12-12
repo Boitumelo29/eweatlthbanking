@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
 class DontHaveAnAccount extends StatelessWidget {
-  final Function() onPressed;
-  const DontHaveAnAccount({super.key, required this.onPressed});
+  final Function()? onPressed;
+
+  const DontHaveAnAccount({super.key, this.onPressed});
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +18,7 @@ class DontHaveAnAccount extends StatelessWidget {
           ),
           Text(
             "signup",
-            style: TextStyle(color: Colors.red),
+            style: TextStyle(color: Colors.green),
           ),
         ],
       ),

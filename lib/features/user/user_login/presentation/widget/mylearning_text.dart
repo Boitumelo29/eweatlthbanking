@@ -7,8 +7,20 @@ class MyLearningText extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Text(
-      Strings.myLearning,
-      style: TextStyle(color: Colors.red, fontSize: 40),
+      "eWealth",
+      style: TextStyle(color: Colors.green, fontSize: 40, fontWeight: FontWeight.w600),
+    );
+  }
+}
+
+class MyLearningSubText extends StatelessWidget {
+  const MyLearningSubText({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Text(
+      "Transfers made simple.",
+      style: TextStyle(color: Colors.grey[800], fontSize: 20, fontWeight: FontWeight.w300),
     );
   }
 }

@@ -80,7 +80,7 @@
 //     ScaffoldMessenger.of(context).showSnackBar(SnackBar(
 //       content: Text(
 //           "Reset instructions have been sent to $email, please check your emails"),
-//       backgroundColor: Colors.red,
+//       backgroundColor: Colors.green,
 //       duration: const Duration(seconds: 5),
 //     ));
 //   } catch (e) {

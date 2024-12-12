@@ -1,0 +1,8 @@
+flutter_native_splash:
+  color: "#ffffff" # Background color (replace with your desired hex color)
+  image: lib/assests/app_logo.png # Path to your splash image
+  android: true # Enable Android splash
+  ios: true # Enable iOS splash
+  web: true # Enable Web splash (optional)
+  android_gravity: center # Position of the image (center, top, bottom)
+  ios_content_mode: center # Content mode for iOS (scaleToFill, scaleAspectFit, etc.)

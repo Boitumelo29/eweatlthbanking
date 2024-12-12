@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
 class AlreadyHaveAnAccount extends StatelessWidget {
-  final Function() onPressed;
-  const AlreadyHaveAnAccount({super.key, required this.onPressed});
+  final Function()? onPressed;
+
+  const AlreadyHaveAnAccount({super.key, this.onPressed});
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +18,7 @@ class AlreadyHaveAnAccount extends StatelessWidget {
           ),
           Text(
             "login",
-            style: TextStyle(color: Colors.red),
+            style: TextStyle(color: Colors.green),
           ),
         ],
       ),

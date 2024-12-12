@@ -81,7 +81,7 @@ class TransactionItem extends StatelessWidget {
       ),
       title: Text(title),
       subtitle: Text(subtitle),
-      trailing: Text(amount, style: TextStyle(color: Colors.red)),
+      trailing: Text(amount, style: TextStyle(color: Colors.green)),
     );
   }
 }

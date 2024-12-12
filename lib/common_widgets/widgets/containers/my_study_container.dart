@@ -21,14 +21,14 @@ class MyStudyContainer extends StatelessWidget {
         decoration: BoxDecoration(
             color: Colors.white,
             borderRadius: BorderRadius.circular(17),
-            border: Border.all(width: 1, color: Colors.red)),
+            border: Border.all(width: 1, color: Colors.green)),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Icon(
               iconData,
-              color: Colors.red,
+              color: Colors.green,
             ),
             Text(
               title,

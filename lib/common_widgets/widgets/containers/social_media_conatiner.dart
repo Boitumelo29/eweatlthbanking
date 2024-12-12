@@ -17,7 +17,7 @@ class SocialMediaContainer extends StatelessWidget {
             children: [
               const Icon(
                 Icons.circle,
-                color: Colors.red,
+                color: Colors.green,
                 size: 55,
               ),
               Positioned(

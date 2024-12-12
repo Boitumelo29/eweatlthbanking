@@ -1,4 +1,5 @@
 import 'package:eweatlthbanking/features/auth/auth.dart';
+import 'package:eweatlthbanking/features/onboarding/presentation/onboarding_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -14,7 +15,8 @@ class MyApp extends StatelessWidget {
     return ScreenUtilInit(
         designSize: const Size(375, 812),
         builder: (context, child) => const MaterialApp(
-              home: AuthPage(),
+              debugShowCheckedModeBanner: false,
+              home: AuthState(),
             ));
   }
 }

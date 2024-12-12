@@ -19,7 +19,7 @@ class TrueOrFalseContainer extends StatelessWidget {
         height: 80,
         width: 350,
         decoration: BoxDecoration(
-          color: shouldBeRed ? Colors.red : Colors.green,
+          color: shouldBeRed ? Colors.green : Colors.green,
           borderRadius: BorderRadius.circular(17),
         ),
         child: Center(
